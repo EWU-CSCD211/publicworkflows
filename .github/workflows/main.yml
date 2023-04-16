@@ -1,0 +1,4 @@
+on: [workflow_call]
+jobs:
+  call-workflow-passing-data:
+    uses: EWU-CSCD211/unit_test/.github/workflows/main.yml@main
